@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+h3{
+    font-family: cursive;
+    color: wheat;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 3em;
+
+}
+
+.footer{
+    
+    background-color: wheat;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    bottom: 0%;
+    height: 4rem;
+    border-radius: 10px;
+    position: fixed;
+}
+
+.main{
+    width:70%;
+    margin-top: -2rem;
+    margin-left: 5rem;
+    
+}
+
+.container{
+    position: relative;
+    background-color: wheat;
+    width: 350px;
+    
+    margin-left: 5.5rem;
+    height: 220px;
+    margin-top: -5em;
+    border-radius: 8px;
+
+}
+
+
+.first{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0.2em;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.start {
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    margin-left: 9rem;
+    margin-top: 7rem;
+    border-radius: 50px;
+    border: solid 6px blueviolet;
+    color: wheat;
+    text-align: center;
+    
+    /* Center the text horizontally and vertically */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    position: fixed;
+
+}
+
+.start:hover{
+    color: black;
+    background-color: wheat;
+    
+}
+
+.task{
+    width: 41px;
+    
+}
+
+h4{
+    font-family: 'Open Sans', sans-serif;
+
+}
